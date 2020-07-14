@@ -1,0 +1,39 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+<form style="padding:10px;border=3px">
+<div style="font-weight:bold">
+<label>First Name:</label>
+</div>
+<div>
+<input type="text" value="Enter First Name"></input>
+</div>
+<div style="font-weight:bold">
+<label>Last Name</label>
+</div>
+<div>
+<input type="text" value="Enter Last Name"></input>
+</div>
+<div style="font-weight:bold">
+<label>Middle Name</label>
+</div>
+<div>
+<input type="text" value="Enter Middle Name"></input>
+</div>
+<div style="font-weight:bold">
+<label>Email Address</label>
+</div>
+<div>
+<input type="text" value="Enter Email Address"></input>
+</div>
+<br/>
+<div>
+<input type="button" value="Submit"></input>
+</div>
+</form>
+	</g:HTMLPanel>
+</ui:UiBinder> 
